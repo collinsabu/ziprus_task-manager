@@ -27,14 +27,14 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      className="bg-base_color text-white p-4"
+      className="bg-base_color text-white p-4 fixed top-0 left-0 w-full z-50 shadow-md"
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
       <div className="flex justify-between items-center">
         <h1 className="text-lg font-bold">Ziprus Task Manager</h1>
-        
+
         {/* Menu Button for Mobile */}
         <button
           className="text-xl md:hidden"

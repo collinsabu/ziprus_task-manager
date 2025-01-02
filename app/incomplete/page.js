@@ -17,7 +17,7 @@ const IncompleteTasks = () => {
   }, []);
 
   return (
-    <div>
+    <div className="mt-30">
       <h1 className="text-2xl font-bold mb-6">Incomplete Tasks</h1>
       {tasks.length > 0 ? (
         tasks.map((task) => <TaskItem key={task._id} task={task} />)

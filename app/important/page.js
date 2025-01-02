@@ -2,7 +2,7 @@ import ImportantTasks from "@/components/ImportantTasks";
 
 const ImportantPage = () => {
   return (
-    <div>
+    <div className="my-20">
       <ImportantTasks />
     </div>
   );
