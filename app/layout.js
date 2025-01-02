@@ -2,7 +2,7 @@ import { AuthProvider } from "./Providers";
 import localFont from "next/font/local";
 import Navbar from "@/components/Navbar";
 import "@/app/globals.css";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; // Ensure this is imported
 
